@@ -1,0 +1,245 @@
+body {
+  background:  linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.699)),
+  url(https://media.philstar.com/images/the-philippine-star/headlines/20170722/congress-joint-session-martial-law.jpg);
+background-size: cover;
+  font-family: "Poppins", "Sora", Helvetica, sans-serif;
+}
+
+.hero {
+  min-height: 100%;
+  background: linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.699)),
+    url(/assets/HOF.jpg);
+  background-size: cover;
+}
+
+.hero-body {
+  padding-top: 200px !important;
+  height: 90vh;
+}
+
+a {
+  text-decoration: none !important;
+  color: white;
+}
+
+.navbar {
+  background-color: #000000 !important;
+}
+
+.active {
+  background-color: transparent !important;
+  color: rgb(62, 199, 253) !important;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(62, 199, 253);
+}
+
+.navbar-menu .navbar-item:hover {
+  background-color: transparent !important;
+  color: rgb(62, 199, 253) !important;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 30px ;
+ 
+}
+
+.flex-item-left {
+  background:  linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.699)),
+  url(https://media.philstar.com/images/the-philippine-star/headlines/20170722/congress-joint-session-martial-law.jpg);
+background-size: cover;
+  padding: 20px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background:  linear-gradient(330deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.699)),;
+  padding: 20px;
+  flex: 50%;
+}
+
+.container h4{
+margin-top: 15px ;
+color: #cacaca;
+}
+
+
+
+.kunti {
+
+text-align: center;
+}
+h2 {
+  
+  padding-top: 50px ;
+  font-size: 25px;
+  color: #ececec;
+}
+h1 {
+  padding-top: 20px ;
+  font-size: 25px;
+  color: #ececec;
+
+}
+.uli {
+ text-align: center;
+ font-size: 45px;
+ color: #ececec;
+
+}
+@media ( max-width: 26.25em ) {
+  h1 {
+      font-size: 1.875em;
+    }
+   }
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.flex-item-right h5 {
+  text-align: justify;
+  margin: 40px;
+  color: #ffffff;
+  line-height: 25px;
+  
+}
+.recruit {
+  background-color: #ececec;
+  margin: 0%;
+  text-align: justify;
+  
+}
+.teks {
+
+  background-color: #ffffff;
+  color: rgba(255, 1, 1, 0.89);
+  font-size: 30px;
+  text-align: center;
+  padding: 40px 30px 15px 40px;
+  margin: 0%;
+} 
+.teks h1  {
+  font-size: 30px;
+  color: rgb(62, 199, 253);
+  line-height: 10px;
+  padding-bottom: 25px;
+  
+}
+.coldnya a {
+  color: #000000;
+  font-size: 20px;
+}
+
+
+
+.gutooom {
+  text-align: center;
+  color: rgba(29, 138, 172, 0.76);
+  padding-bottom: 20px;
+  background-color: #000000;
+  margin-top: 1px;
+}
+.container {
+  display: flex;
+padding-bottom: 10px;
+text-align: center;
+
+}
+.container .card {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background-color: #000000;
+
+}
+.title a{
+
+  color: #000000;
+}
+a:hover {
+color: rgba(29, 138, 172, 0.76);
+
+}
+.flex-item-left p {
+  color: #ffffff;
+  text-align: center;
+  margin: 20px 80px 40px 80px;
+  text-align: justify;
+
+}
+
+.container .card .title {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+.title {
+  color: rgba(0, 134, 187, 0.966);
+}
+
+.container .card .content {
+  text-align: center;
+  padding: 15px;
+  padding-top: 10px;
+  margin-top: -45px;
+  box-shadow: 0px -4px 5px rgba(0, 0, 0, 0.15);
+
+}
+
+.container .card:nth-child(1) .title, .container .card:nth-child(1) .circle {
+  background-color: #eeeeee;
+}
+
+.container .card:nth-child(2) .title, .container .card:nth-child(2) .circle {
+  background-color:  #eeeeee;
+}
+
+.container .card:nth-child(3) .title, .container .card:nth-child(3) .circle {
+  background-color:  #eeeeee;
+}
+
+.container .card:nth-child(4) .title, .container .card:nth-child(4) .circle {
+  background-color:  #eeeeee;
+}
+
+
+@media (max-width: 767px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .container .card {
+    flex: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container .card {
+    flex-wrap: wrap;
+  }
+   
+}
+
+
+.contact-footer {
+  font-size: medium;
+  font-weight: bold;
+}
+
+.email-foot {
+  color: rgb(62, 199, 253);
+}
+
+.email-foot:hover {
+  color: rgb(37, 136, 175);
+}
